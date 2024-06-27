@@ -1,0 +1,7 @@
+set_property SRC_FILE_INFO {cfile:C:/Users/Shreyansh/FPGA_projects/led_with_switch/Arty-A7-35-led_with_switch.xdc rfile:../../../Arty-A7-35-led_with_switch.xdc id:1} [current_design]
+set_property src_info {type:XDC file:1 line:31 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN H5    IOSTANDARD LVCMOS33 } [get_ports { led }]; #IO_L24N_T3_35 Sch=led[4]
+set_property src_info {type:XDC file:1 line:37 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN D9    IOSTANDARD LVCMOS33 } [get_ports { switch1 }]; #IO_L6N_T0_VREF_16 Sch=btn[0]
+set_property src_info {type:XDC file:1 line:38 export:INPUT save:INPUT read:READ} [current_design]
+set_property -dict { PACKAGE_PIN C9    IOSTANDARD LVCMOS33 } [get_ports { switch2 }]; #IO_L11P_T1_SRCC_16 Sch=btn[1]
